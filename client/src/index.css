@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e2869b;
+}
+
+/* Navbar */
+.custom-navbar-brand,
+.custom-navbar-link {
+  color: white !important;
+}
