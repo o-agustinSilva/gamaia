@@ -9,13 +9,14 @@ import {
   MDBNavbarToggler,
   MDBNavbarBrand,
   MDBCollapse,
+  MDBBtn 
 } from 'mdb-react-ui-kit';
 
 const Navbar = () => {
   const [openNavRight, setOpenNavRight] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light>
+    <MDBNavbar expand='lg' light className='custom-navbar'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#' className="custom-navbar-brand">GAMAIA</MDBNavbarBrand>
         <MDBNavbarToggler
@@ -44,7 +45,6 @@ const Navbar = () => {
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
-        
       </MDBContainer>
     </MDBNavbar>
   );

@@ -1,18 +1,28 @@
-* {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100%;
+  color: white !important;
 }
 
 .App {
   min-height: 100vh;
+  background-color: #000000f1;
   display: flex;
   flex-direction: column;
-  background-color: #e2869b;
+  height: 100%;
 }
 
 /* Navbar */
 .custom-navbar-brand,
 .custom-navbar-link {
   color: white !important;
+}
+
+/* Hover */
+.custom-hover:hover {
+  background-color: #ADADAD !important;
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
 }
