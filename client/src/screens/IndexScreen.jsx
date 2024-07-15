@@ -3,7 +3,10 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import Intro from '../components/Intro';
 import Blockchain from '../components/Blockchain';
-import BlockchainDetails from '../components/BlockchainDetails';
+import Servicios from '../components/Servicios';
+import Productos from '../components/Productos';
+import Equipo from '../components/Equipo';
+
 
 export function IndexScreen() {
   return (
@@ -12,8 +15,10 @@ export function IndexScreen() {
       <Header />
       <Intro />
       <Blockchain />
-      <Intro />
-      </div>
+      <Servicios />
+      <Productos />
+      <Equipo />
+    </div>
   );
 }
 

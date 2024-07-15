@@ -10,7 +10,7 @@ const Intro = () => {
         <Col md={6}
           className='text-center bg-image'
           style={{
-            backgroundImage: "url('https://turismoenushuaia.com/wp-content/uploads/2022/09/ruta-3-nieve-Turismo-en-Ushuaia.jpg')",
+            backgroundImage: "url('https://cdn.diariojornada.com.ar/imagenes/2023/3/28/344381_103356.jpg')",
             height: "400px",
             borderTopLeftRadius: "25px"
           }}

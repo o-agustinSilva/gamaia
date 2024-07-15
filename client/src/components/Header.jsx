@@ -9,14 +9,14 @@ const Header = () => {
     <header>
       <div
         className='text-center bg-image'
-        style={{ backgroundImage: "url('https://p4.wallpaperbetter.com/wallpaper/202/583/701/logo-currency-fon-cryptocurrency-blockchain-hd-wallpaper-preview.jpg')", height: '800px' }}
+        style={{ backgroundImage: "url('https://p4.wallpaperbetter.com/wallpaper/282/308/59/abstract-vector-red-purple-wallpaper-preview.jpg')", height: '800px' }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           <div className='d-flex align-items-center h-100 p-5'>
             <div className='text-white'>
               <Col>
                 <Row>
-                  <h3 className='mb-3 d-flex'>GAMAIA</h3>
+                  <h3 className='mb-3 d-flex' style={{color:"#33E3FF"}}>GAMAIA</h3>
                 </Row>
               </Col>
               <Row>
