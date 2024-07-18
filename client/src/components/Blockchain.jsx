@@ -4,8 +4,8 @@ import BlockchainDetails from './BlockchainDetails';
 
 const Blockchain = () => {
     return (
-        <Container fluid className='mt-5 p-5 d-flex flex-column justify-content-center' style={{
-            background: '#201F1F'
+        <Container fluid className='p-5 d-flex flex-column justify-content-center margin-container' style={{
+            background: '#201F1F', marginTop:"40px"
           }}>
             <Row>
                 <Col md={12}>

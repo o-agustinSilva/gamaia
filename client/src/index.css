@@ -26,3 +26,36 @@ html, body {
   transform: translateY(-5px);
   transition: all 0.5s ease;
 }
+
+.card-hover {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.card-hover .card-text-hover,
+.card-hover .card-title-hover {
+  transition: color 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  background-color: #e3e3e3 !important;
+  color: black !important;
+}
+
+.card-hover:hover .card-text-hover {
+  color: black !important;
+}
+
+.card-hover:hover .card-title-hover {
+  color: #47078a !important;
+}
+
+.custom-card img{
+    width: 100%;
+    height: auto;
+    max-width: 80px;
+    max-height: 80px;
+}
+/* Margin entre elementos */
+.margin-container {
+  margin-top: 200px !important;
+}

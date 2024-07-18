@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Productos = () => {
   return (
-    <Container fluid className='mt-5 text-center'>
+    <Container fluid className='text-center margin-container'>
         <Row>
             <Col>
             <h1>Productos</h1>

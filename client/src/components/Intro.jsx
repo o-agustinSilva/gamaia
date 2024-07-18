@@ -3,9 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Intro = () => {
   return (
-    <Container
-      className='mt-5'
-    >
+    <Container className='margin-container'>
       <Row>
         <Col md={6}
           className='text-center bg-image'

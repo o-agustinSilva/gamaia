@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <div
-        className='text-center bg-image'
+        className='text-center bg-image margin'
         style={{ backgroundImage: "url('https://p4.wallpaperbetter.com/wallpaper/282/308/59/abstract-vector-red-purple-wallpaper-preview.jpg')", height: '800px' }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
