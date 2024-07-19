@@ -15,9 +15,53 @@ html, body {
 }
 
 /* Navbar */
-.custom-navbar-brand,
-.custom-navbar-link {
-  color: white !important;
+#navbar {
+  background: transparent !important;
+  border: none;
+  box-shadow: none;
+}
+
+#navbar .navbar-brand,
+#navbar .nav-link {
+  color: rgb(210, 209, 209);
+  border-radius: 12px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;
+  position: relative;
+  color: #33E3FF; 
+}
+
+.navbar-nav .nav-link:after {
+  content: "";
+  position: absolute;
+  background-color: #33E3FF;
+  height: 3px;
+  width: 0;
+  left: 50%;
+  bottom: 0px;
+  transition: 0.3s;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover:after {
+  width: 90%;
+  text-align: center;
+}
+
+#navbar .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Header */
+#header-img {
+  mask-image: linear-gradient(
+    black 80%,
+      transparent
+  );
 }
 
 /* Hover */

@@ -1,53 +1,38 @@
-import React, { useState } from 'react';
-import {
-  MDBNavbar,
-  MDBContainer,
-  MDBIcon,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarLink,
-  MDBNavbarToggler,
-  MDBNavbarBrand,
-  MDBCollapse,
-  MDBBtn 
-} from 'mdb-react-ui-kit';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar = () => {
-  const [openNavRight, setOpenNavRight] = useState(false);
+const CustomNavbar = () => {
 
   return (
-    <MDBNavbar expand='lg' light className='custom-navbar'>
-      <MDBContainer fluid>
-        <MDBNavbarBrand href='#' className="custom-navbar-brand">GAMAIA</MDBNavbarBrand>
-        <MDBNavbarToggler
-          type='button'
-          data-target='#navbarRightAlignExample'
-          aria-controls='navbarRightAlignExample'
-          aria-expanded='false'
-          aria-label='Toggle navigation'
-          onClick={() => setOpenNavRight(!openNavRight)}
-        >
-          <MDBIcon icon='bars' fas />
-        </MDBNavbarToggler>
-        <MDBCollapse open={openNavRight} navbar>
-        <MDBNavbarNav right  className='ms-auto mb-2 mb-lg-0'>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className="custom-navbar-link">Servicios</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className="custom-navbar-link">Productos</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className="custom-navbar-link">Nuestro equipo</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className="custom-navbar-link">Contactanos</MDBNavbarLink>
-            </MDBNavbarItem>
-          </MDBNavbarNav>
-        </MDBCollapse>
-      </MDBContainer>
-    </MDBNavbar>
+    <>
+    <Navbar sticky='top' collapseOnSelect expand="lg" className="bg-body-tertiary" bg="primary" data-bs-theme="dark" id="navbar">
+      <Container fluid>
+      <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src="https://react-bootstrap.netlify.app/img/logo.svg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            GAMAIA
+          </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="#servicios">Servicios</Nav.Link>
+            <Nav.Link href="#productos">Productos</Nav.Link>
+            <Nav.Link href="#equipo">Nuestro equipo</Nav.Link>
+            <Nav.Link href="#contacto">Contactanos</Nav.Link>
+
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    </>
   );
 }
 
-export default Navbar
+export default CustomNavbar

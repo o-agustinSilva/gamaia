@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardText } from 'mdb-react-ui-kit';
 
 const Equipo = () => {
     return (
-        <Container className='text-center margin-container d-flex flex-column justify-conytent-center'>
+        <Container className='text-center margin-container d-flex flex-column justify-conytent-center' id="equipo">
             <Row>
                 <h1>Nuestro equipo</h1>
             </Row>
