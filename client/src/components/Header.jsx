@@ -4,14 +4,14 @@ import CustomNavbar from './Navbar';
 
 const Header = () => {
   return (
-    <header className='text-center bg-image margin'
-      style={{ backgroundImage: "url('https://p4.wallpaperbetter.com/wallpaper/282/308/59/abstract-vector-red-purple-wallpaper-preview.jpg')", height: '800px' }}
+    <header className='text-center margin'
+      style={{height: '650px' }}
       id='header-img'
       >
         
       <CustomNavbar />
 
-      <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+      <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
         <div className='d-flex align-items-center h-100 p-5'>
           <div className='text-white'>
             <Col>

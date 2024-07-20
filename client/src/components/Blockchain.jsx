@@ -4,19 +4,16 @@ import BlockchainDetails from './BlockchainDetails';
 
 const Blockchain = () => {
     return (
-        <Container fluid className='p-5 d-flex flex-column justify-content-center margin-container' style={{
-            background: '#201F1F', marginTop:"40px"
-          }}>
+        <Container fluid className='p-5 d-flex flex-column justify-content-center margin-container spacer'>
             <Row>
                 <Col md={12}>
-                    <h1 className='text-white text-center'>
-                        Gamaia significa <span style={{ color: '#33E3FF' }}>cadena</span>
+                    <h1 className='text-center'>
+                        Gamaia significa <span style={{ color: '#15CFEE' }}>cadena</span>
                     </h1>
-                    <p className='text-white text-center'>Todas las soluciones que proponemos utilizan la tecnología blockchain en sus cimientos, incorporando transparencia y seguridad. </p>
+                    <p className='text-center'>Todas las soluciones que proponemos utilizan la tecnología blockchain en sus cimientos, incorporando transparencia y seguridad. </p>
                 </Col>
             </Row>
-            <BlockchainDetails/>
-            
+            <BlockchainDetails />
         </Container>
 
     )
