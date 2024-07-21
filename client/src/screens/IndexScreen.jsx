@@ -5,7 +5,7 @@ import Blockchain from '../components/Blockchain';
 import Servicios from '../components/Servicios';
 import Productos from '../components/Productos';
 import Equipo from '../components/Equipo';
-
+import Contactanos from '../components/Contactanos';
 
 export function IndexScreen() {
   return (
@@ -16,6 +16,7 @@ export function IndexScreen() {
       <Servicios />
       <Productos />
       <Equipo />
+      <Contactanos />
     </div>
   );
 }
