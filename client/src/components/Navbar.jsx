@@ -2,9 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../static/img/logos/White logo - no background.svg';
 
 const CustomNavbar = () => {
-
   return (
     <>
     <Navbar sticky='top' collapseOnSelect expand="lg" className="bg-body-tertiary" bg="primary" data-bs-theme="dark" id="navbar">
@@ -12,16 +12,16 @@ const CustomNavbar = () => {
       <Navbar.Brand href="#home">
             <img
               alt=""
-              src="https://react-bootstrap.netlify.app/img/logo.svg"
-              width="30"
-              height="30"
+              src={logo}
+              width="100"
+              height="100"
               className="d-inline-block align-top"
-            />{' '}
-            GAMAIA
+            />
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
+            <Nav.Link href="#intro-img">¿Quienes somos?</Nav.Link>
             <Nav.Link href="#servicios">Servicios</Nav.Link>
             <Nav.Link href="#productos">Productos</Nav.Link>
             <Nav.Link href="#equipo">Nuestro equipo</Nav.Link>

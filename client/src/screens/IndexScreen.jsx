@@ -13,8 +13,6 @@ export function IndexScreen() {
       <Header />
       <Intro />
       <Blockchain />
-      <Servicios />
-      <Productos />
       <Equipo />
       <Contactanos />
     </div>
