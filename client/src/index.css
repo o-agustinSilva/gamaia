@@ -64,6 +64,7 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+
 /* Header */
 #header-img {
   mask-image: linear-gradient(to bottom, black 80%, transparent);
@@ -169,4 +170,5 @@ h1 {
 form input,
 form textarea {
   background-color: #f6f5f5 !important;
+  width: 100%;
 }

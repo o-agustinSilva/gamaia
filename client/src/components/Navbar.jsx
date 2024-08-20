@@ -7,7 +7,7 @@ import logo from '../static/img/logos/White logo - no background.svg';
 const CustomNavbar = () => {
   return (
     <>
-    <Navbar sticky='top' collapseOnSelect expand="lg" className="bg-body-tertiary" bg="primary" data-bs-theme="dark" id="navbar">
+    <Navbar sticky='top' collapseOnSelect expand="lg" bg="light" data-bs-theme="light" id="navbar">
       <Container fluid>
       <Navbar.Brand href="#home">
             <img
@@ -18,15 +18,14 @@ const CustomNavbar = () => {
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+        <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="ms-auto">
             <Nav.Link href="#intro-img">¿Quienes somos?</Nav.Link>
             <Nav.Link href="#servicios">Servicios</Nav.Link>
             <Nav.Link href="#productos">Productos</Nav.Link>
             <Nav.Link href="#equipo">Nuestro equipo</Nav.Link>
             <Nav.Link href="#contacto">Contactanos</Nav.Link>
-
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -7,12 +7,12 @@ import Form from 'react-bootstrap/Form';
 const Contactanos = () => {
   return (
     <Container fluid className="d-flex justify-content-center p-5 margin-container" style={{background:"#2221214c"}} id="contacto">
-      <Row className='d-flex justify-content-center text-white'>
+      <Row className='d-flex justify-content-center text-white' style={{width:"800px"}}>
         <Col md={12}>
         <h1 className='text-center'>Contactanos</h1>
         </Col>
 
-      <Col md={12} className="p-4" style={{minWidth: "600px"}}>   
+      <Col md={12} className="p-4">   
       <Form>
       <Form.Group className="mb-3">
         <Form.Label className='text-white'>Nombre completo</Form.Label>
