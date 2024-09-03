@@ -28,7 +28,7 @@ const Servicios = () => {
             con amplia experiencia ayudando a organizaciones de diversos sectores a digitalizar y automatizar sus procesos de negocio.</h5>
         </Col>
       </Row>
-      <Row className="mt-5 p-5" style={{ background: "#2221214c", borderRadius: "10px" }} data-aos="fade in">
+      <Row className="mt-5" style={{ background: "#2221214c", borderRadius: "10px" }} data-aos="fade in">
         <Col md={12} xl={6}>
           <img src={img} data-aos="fade-left" style={{
             maxWidth: "100%",

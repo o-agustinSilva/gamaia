@@ -30,9 +30,8 @@ const Contactanos = () => {
     };
     
     try {
-      const response = await fetch('https://Gamaia.com.ar/Api/Contacto', {
+      const response = await fetch('https://gamaia.com.ar/Api/Contacto', {
         method: 'POST',
-        mode: 'no-cors', // No recomendado, borrar esta línea y habilitar CORS en servidor 
         headers: {
           'Content-Type': 'application/json',
         },
@@ -40,9 +39,9 @@ const Contactanos = () => {
       });
 
       if (response.ok) {
-        alert('Formulario enviado con éxito');
+        console.log('Formulario enviado con éxito');
       } else {
-        alert('Error al enviar el formulario');
+        console.log('Error al enviar el formulario');
       }
     } catch (error) {
       console.error('Error al enviar los datos:', error);
@@ -51,7 +50,7 @@ const Contactanos = () => {
   };
 
   return (
-    <Container fluid className="d-flex justify-content-center p-5 margin-container" style={{ background: "#2221214c" }} id="contacto">
+    <Container fluid className="d-flex justify-content-center p-5 margin-container" id="contacto" style={{background:'#2221214c'}}>
       <Row className="d-flex justify-content-center text-white" style={{ width: "800px" }}>
         <Col md={12}>
           <h1 className="text-center" style={{color: "#13c1d2"}}>Contáctanos</h1>
