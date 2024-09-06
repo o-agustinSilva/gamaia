@@ -24,7 +24,7 @@ const CustomNavbar = () => {
             <Nav.Link href="#intro-img">¿Quienes somos?</Nav.Link>
             <Nav.Link href="#servicios">Servicios</Nav.Link>
             <Nav.Link href="#productos">Productos</Nav.Link>
-            <Nav.Link href="#equipo">Nuestro equipo</Nav.Link>
+            {/* <Nav.Link href="#equipo">Nuestro equipo</Nav.Link> */}
             <Nav.Link href="#contacto">Contactanos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
