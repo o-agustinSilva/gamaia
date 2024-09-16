@@ -88,6 +88,7 @@ const Productos = () => {
             height: "auto",
             borderRadius: "5px"
           }} />
+          <p className='text-end' style={{color: "#3d3c3c"}}>Designed by Freepik</p>
         </Col>
       </Row>
     </Container>

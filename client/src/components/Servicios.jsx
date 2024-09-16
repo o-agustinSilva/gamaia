@@ -35,8 +35,9 @@ const Servicios = () => {
             maxHeight: "100%",
             width: "auto",
             height: "auto",
-            borderRadius: "5px"
+            borderRadius: "5px",
           }} />
+          <p className='text-start' style={{color: "#3d3c3c"}}>Designed by Freepik</p>
         </Col>
         <Col md={12} xl={6} className="text-start d-flex flex-column justify-content-start p-5">
           <Row data-aos="fade-right" className="justify-content-between">
@@ -58,22 +59,22 @@ const Servicios = () => {
           </Row>
           <Row className="d-flex text-md-start text-center mt-auto">
             <Col xs={12} sm={4} md={2}>
-              <img src={microsoft} width={80} height={80} data-aos="zoom-in" />
+            <a target="_blank" href="https://icons8.com/icons/set/microsoft"><img src={microsoft} width={80} height={80} data-aos="zoom-in" /></a>
             </Col>
             <Col xs={12} sm={4} md={2}>
-              <img src={powerautomate} width={80} height={80} data-aos="zoom-in" />
+            <a target="_blank" href="https://icons8.com/icons/set/power-automate"><img src={powerautomate} width={80} height={80} data-aos="zoom-in" /></a>
             </Col>
             <Col xs={12} sm={4} md={2}>
-              <img src={powerbi} width={80} height={80} data-aos="zoom-in" />
+            <a target="_blank" href="https://icons8.com/icons/set/power-bi"><img src={powerbi} width={80} height={80} data-aos="zoom-in" /></a>
             </Col>
             <Col xs={12} sm={4} md={2}>
-              <img src={teams} width={80} height={80} data-aos="zoom-in" />
+            <a target="_blank" href="https://icons8.com/icons/set/microsoft-teams"><img src={teams} width={80} height={80} data-aos="zoom-in" /></a>
             </Col>
             <Col xs={12} sm={4} md={2}>
-              <img src={azure} width={80} height={80} data-aos="zoom-in" />
+            <a target="_blank" href="https://icons8.com/icons/set/azure"><img src={azure} width={80} height={80} data-aos="zoom-in" /></a>
             </Col>
             <Col xs={12} sm={4} md={2}>
-              <img src={sharepoint} width={80} height={80} data-aos="zoom-in" />
+            <a target="_blank" href="https://icons8.com/icons/set/sharepoint"><img src={sharepoint} width={80} height={80} data-aos="zoom-in" /></a>
             </Col>
           </Row>
         </Col>

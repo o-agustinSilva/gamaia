@@ -17,11 +17,14 @@ const Intro = () => {
     }}
     >
       <Row>
-        <Col md={12} className='d-flex' data-aos="fade-left">
-          <h2 className='text-center'>¿Cómo dar nombre a una empresa cuya misión  es brindar soluciones tecnológicas basadas en la naturaleza como la forma más eficaz de alcanzar este objetivo?</h2>
+        <Col md={12} className='p-5' data-aos="fade-up">
+          <h1 className='text-center' style={{color:"#19c1ed"}}>¿Qué significa gamaia?</h1>
+        </Col>
+        <Col md={12} data-aos="fade-left">
+          <h4 className='text-center'>¿Cómo dar nombre a una empresa cuya misión  es brindar soluciones tecnológicas basadas en la naturaleza como la forma más eficaz de alcanzar este objetivo?</h4>
         </Col>
         <Col md={12} className='p-5' data-aos="fade-right">
-          <h4 className='text-center'>Empezamos mostrando lo orgullosos que estamos siendo fueguinos, por ello elegimos un vocablo de la lengua Yagán.</h4>
+          <h4 className='text-center'>Como estamos muy orgullosos de ser fueguinos elegimos un vocablo de la lengua Yagán que significa “cadena”. Esta elección se basa que en la principal tecnología de vanguardia BLOCKCHAIN (cadena de bloques) que utilizamos en nuestras soluciones.</h4>
         </Col>
       </Row>
     </Container>

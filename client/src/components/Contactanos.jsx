@@ -110,6 +110,7 @@ const Contactanos = () => {
                 value={formData.comentarios}
                 onChange={handleChange}
                 required
+                rows={5}
               />
             </Form.Group>
 
