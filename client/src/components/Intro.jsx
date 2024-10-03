@@ -10,13 +10,13 @@ const Intro = () => {
   }, [])
 
   return (
-    <Container fluid className='margin-container d-flex align-items-center p-5' id="intro-img" style={{
+    <Container fluid className='margin-container d-flex align-items-center p-2' id="intro-img" style={{
       overflowX: "hidden",
       overflowY: "hidden",
       height: "90vh"
     }}
     >
-      <Row>
+      <Row className='mt-5'>
         <Col md={12} className='p-5' data-aos="fade-up">
           <h1 className='text-center' style={{color:"#19c1ed"}}>¿Qué significa gamaia?</h1>
         </Col>

@@ -81,6 +81,8 @@ html, body {
   background: linear-gradient(45deg, #a10e84, #09b1c7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  word-wrap: break-word; /* Permitir que el texto se ajuste a varias líneas */
+  max-width: 100%; /* Limitar el ancho para evitar que salga de la pantalla */
 }
 .gradient-text-secondary {
   font-size: 45px !important;
@@ -90,7 +92,7 @@ html, body {
 }
 @media (max-width: 400px) {
   .gradient-text {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
   .gradient-text-secondary {
     font-size: 30px !important;
